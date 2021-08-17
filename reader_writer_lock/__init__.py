@@ -1,0 +1,2 @@
+from reader_writer_lock.MpFactory import FactoryLock as MultiprocessingFactory
+from reader_writer_lock.MtFactory import FactoryLock as MultithreadingFactory
