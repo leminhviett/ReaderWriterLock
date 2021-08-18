@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'Reader Writer Lock'
 
 # Setting up
@@ -27,5 +27,8 @@ setup(
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
-    ]
+    ],
+    project_urls={
+        'Source': 'https://github.com/leminhviett/ReaderWriterLock'
+    }
 )

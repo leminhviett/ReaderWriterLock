@@ -8,6 +8,7 @@ Refer to [Wikipedia](https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock) 
 
 
 ## Installation
+`pip install reader-writer-locks`
 
 ## Usage
 1. Choose between the following `option`
