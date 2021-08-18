@@ -8,7 +8,7 @@ from reader_writer_lock import MultithreadingFactory
 def test(option):
     test_name = ["No priority", "Read priority", "Write priority"]
 
-    print(f"Testing option [{test_name[option]}]")
+    print(f"Testing [{test_name[option]}]")
 
     rw = MultithreadingFactory(option)
     r_lock = rw.get_read_lock()
@@ -61,7 +61,9 @@ def test(option):
     print("===============================")
 
 
-test(0)
-
-test(1)
-test(2)
+if __name__ == "__main__":
+    print("Starting test for multithreading ....")
+    print("####################################")
+    test(0)
+    test(1)
+    test(2)

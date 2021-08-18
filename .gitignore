@@ -1,1 +1,5 @@
 .idea
+build
+dist
+*.egg-info
+reader_writer_lock/__pycache__
