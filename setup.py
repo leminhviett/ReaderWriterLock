@@ -15,6 +15,7 @@ setup(
     version=VERSION,
     author="Viet Le",
     author_email="minhviet810business@gmail.com",
+    license='MIT',
     description=DESCRIPTION,
     long_description_content_type='text/markdown',
     long_description=long_description,
